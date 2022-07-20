@@ -1,0 +1,83 @@
+{
+    "monitor_id": 123123,
+    "locations": "de",
+    "current_location": 1,
+    "frequency": 1,
+    "transaction_id": 3,
+    "cycle_id": 3,
+    "type": "content",
+    "date": "2021-01-26 11:07:48",
+    "params": {
+        "host": "emcomponents.net/test_input4/",
+        "protocol": 5,
+        "port": "fsdfsf",
+        "type": "fsdf",
+        "auth": {
+            "login": "login_text",
+            "password": "password_text"
+        },
+        "header": [
+            {
+                "name": "User-Agent",
+                "value": "bot.v1"
+            },
+            {
+                "name": "tes_name",
+                "value": "test_value"
+            }
+        ],
+        "form": [
+            {
+                "name": "field1",
+                "value": "value1"
+            },
+            {
+                "name": "field2",
+                "value": "value2"
+            }
+        ],
+        "content": "ZW1vIHRleHQgRGVtbw=",
+        "include_exclude": "include",
+        "ipv6": false,
+        "maintenance": "ZW1vIHRleHQgRGVtbw==",
+        "allow_redirects": false,
+        "http_codes": [
+            400
+        ],
+        "timeout": 10
+    },
+    "main_result": "down",
+    "content_position": -1,
+    "maintenance_position": -1,
+    "http_code": 301,
+    "total_time": 133,
+    "namelookup_time": 4,
+    "connect_time": 72,
+    "pretransfer_time": 72,
+    "starttransfer_time": 133,
+    "error": "Error code: http-code-incorrect object_id: 123123",
+    "request": {
+        "uri": "http://emcomponents.net/test_input4/",
+        "header": {
+            "Content-Length": [
+                "27"
+            ],
+            "Content-Type": [
+                "application/x-www-form-urlencoded"
+            ],
+            "Authorization": [
+                "Basic bG9naW5fdGV4dDpwYXNzd29yZF90ZXh0"
+            ],
+            "Host": [
+                "emcomponents.net"
+            ],
+            "User-Agent": [
+                "bot.v1"
+            ],
+            "tes_name": [
+                "test_value"
+            ]
+        },
+        "body": "field1=value1&field2=value2"
+    }
+}
